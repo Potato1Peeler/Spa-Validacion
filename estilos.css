@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.borde{
+  border: 1px red solid;
+}
+
+.separador{
+  background-color: #ff3281;
+  height: 10px;
+  border: none;
+}
+
+.logo{
+  display: inline-block;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.logo img{
+  height: 100px;
+}
+
+.redes{
+  display: inline-block;
+  width: 48%;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.contenedor_menu{
+  border: 3px black solid;
+  text-align: center;
+  padding: 10px;
+}
+
+.contenedor_menu a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px 100px;
+}
+
+.contenedor_img_prom{
+  background-image: url(imagenes/fondopiedras.jpg);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 160px;
+  text-align: center;
+  color: white;
+}
+
+.contenedor_img_prom h2{
+  font-size: 40px;
+}
+
+.contenedor_img_prom p{
+  margin: auto;
+  width: 55%;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.solicitar{
+  height: 30px;
+  background-color: #ff3281;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+
+.video{
+  height: 20px;
+  border: 2px #ff3281 solid;
+  padding: 18px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.productotexto{
+  display: inline-block;
+  vertical-align: middle;
+  width: 53%;
+}
+.productotexto h2{
+  padding-bottom: 35px;
+}
+.productotexto p{
+  line-height: 40px;
+}
+
+.productoimagen{
+  display: inline-block;
+  vertical-align: middle;
+  width: 46%;
+  text-align: right;
+}
+
+.contenedor_talento{
+  text-align: center;
+  background-color: #fff9f1;
+}
+
+.contenedor_talento h2{
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.talentoimg{
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%;
+  text-align: left;
+}
+
+.talentoimg img{
+  border-radius: 15px;
+  height: 400px;
+}
+
+.talentotexto{
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%;
+  margin-right: 43px;
+}
+
+.talentotexto h3{
+  font-weight: bold;
+  text-align: left;
+}
+
+.talentotexto p{
+  text-align: left;
+  line-height: 28px;
+}
+
+.formulario{
+  display: inline-block;
+  vertical-align: top;
+  width: 44%;
+  margin-right: 50px;
+}
+
+.formulario h2{
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.formulario p{
+  margin-bottom: 15px;
+}
+
+.formulario form{
+  border: 3px #ff3281 solid;
+  border-radius: 5px;
+  width: 90%;
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.formulario form label{
+  font-weight: bold;
+}
+
+.formulario form input{
+  margin-top: 15px;
+  height: 37px;
+  padding: 10px;
+  width: 95%;
+  font-size: 15px;
+}
+
+.formulario form button{
+  margin-left: 5px;
+  margin-top: 10px;
+  padding: 10px 50px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.instalacionesvideo{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.instalacionesvideo h2{
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.instalacionesvideo iframe{
+  border-radius: 5px;
+  width: 100%;
+  height: 287px;
+  border: none;
+}
+
+.rosa{
+  color: #ff3281;
+  font-weight: bold;
+}
+
+
+.contenedor_footer{
+  background-color: #fff9f1;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.footerimg{
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%;
+  text-align: left;
+}
+
+.footertexto{
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%
+}
+
+.footertexto p{
+  text-align: right;
+}

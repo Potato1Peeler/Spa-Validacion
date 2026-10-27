@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <hr class="separador">
+  <div class="ancho">
+    <div class="logo">
+      <img src="imagenes/logocabecera.jpg" alt="">
+    </div>
+    <div class="redes">
+      <img src="imagenes/icono_facebook.jpg" alt="">
+      <img src="imagenes/icono_instagram.jpg" alt="">
+      <img src="imagenes/icono_twitter.jpg" alt="">
+    </div>
+
+
+
+
+  </div>
+
+  <div class="contenedor_menu ancho">
+    <a href="#">GALERIA</a>
+    <a href="#">PRECIOS</a>
+    <a href="#">CONTACTANOS</a>
+    <a href="#">EQUIPO</a>
+  </div>
+  <br>
+  
+  <div class="contenedor_img_prom">
+    <h2>PROMORCIONES MARZO</h2><br>
+    <p>Se acerca la epoca de playa y por eso preparamos estas dos promociones ideales para ti.</p><br><br><br>
+    <a href="#" class="solicitar">Solicitar promocion</a>
+    <a href="#" class="video">ver Video</a>
+  </div>
+
+  <div class="contenedor_producto ancho">
+    <div class="productotexto">
+      <h2>Los productos Science Beauty</h2>
+      
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim eaque perspiciatis doloribus eos voluptatem animi quas officiis odit! Vitae omnis animi possimus. Omnis porro nesciunt iusto debitis est ratione dolore labore similique rerum magni velit eum, aut earum doloremque ut maxime dolorum enim? Asperiores harum itaque impedit veniam ipsam?
+      </p>
+    </div>
+    <div class="productoimagen">
+      <img src="imagenes/fotovelas.jpg" alt="">
+    </div>
+
+  </div>
+
+  <div class="contenedor_talento">
+    <h2>Buscamos talento para integrarlos a nuestro equipo</h2>
+    <br>
+    <div class="subcontenedor_elem ancho">
+      <div class="talentoimg">
+        <img src="imagenes/fotoaromatizante.jpg" alt="">
+      </div>
+
+      <div class="talentotexto">
+        <h3>Puesto de trabajo para Recepcionista</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, obcaecati rerum architecto dolor reiciendis exercitationem doloremque at mollitia non accusantium ut repellat numquam officia qui soluta! Perferendis adipisci nisi officiis.</p><br>
+
+        <h3>Puesto de trabajo para masajista</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aliquam reiciendis in dicta vel, atque vero laudantium odit eligendi velit quisquam quidem recusandae nulla mollitia alias laboriosam minima expedita harum.</p><br>
+
+        <h3>Puesto de trabajo para Nutriologo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus reprehenderit ut fugiat aperiam labore incidunt nulla nam doloribus, ipsam magni dicta distinctio, laboriosam similique sunt maiores laudantium at placeat aliquam.</p>
+      </div><br><br>
+    </div>
+  </div>
+
+  <div class="contenedor_instalaciones ancho">
+    <div class="formulario">
+      <h2>Recive noticias y promociones de SPA SALON</h2>
+      <p>Un lugar para consentirte de pies a la cabeza <br>
+        Servicio de salón estética y Spa personalizado
+      </p>
+      <p><span class="rosa">TELEFONO:</span> 999 420 8871</p>
+      <p><span class="rosa">CORREO:</span> info@spasalon.com</p>
+
+      <form action="xd.html" id="formularioenviar" name="formularioenviar" method="get">
+        <label for="">Tu dirección de correo electrónico</label><br>
+        <input type="email" placeholder="* tunombre@example.com" id="email" name="email"><br>
+        <button type="button" name="btn_validar" id="btn_validar">Enviar</button>
+      </form>
+    </div>
+
+    <div class="instalacionesvideo">
+      <h2>Nuestras Instalaciones</h2><br><br>
+      <iframe src="https://www.youtube.com/embed/w4qaODLR_Xg?si=VCABBSPnt49km9n9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </div>
+
+  </div>
+  <br><br><br><br>
+  <div class="contenedor_footer">
+    <div class="subcontenedor_footer ancho">
+      <div class="footerimg">
+        <img src="imagenes/logo_spa.png" alt="">
+      </div>
+  
+      <div class="footertexto">
+        <p class="rosa">Alejandro Ku León</p>
+        <p class="rosa">Programación Web</p>
+        <p class="rosa">7SA</p>
+      </div>
+    </div>
+  </div>
+  <hr class="separador">
+
+  <script>
+    $("#btn_validar").click(function(){
+
+      if($("#email").val().trim() === ''){
+        alert("Escribe tu email");
+        $("#email").focus();
+        return false;
+      }
+      
+      let expresionCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      
+      if (!expresionCorreo.test($("#email").val().trim())){
+        alert("El formato no es válido");
+        $("#email").focus();
+        return false;
+      }
+
+      $("#formularioenviar").submit();
+    });
+
+  </script>
+
+
+
+</body>
+</html>
